@@ -1,0 +1,123 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>assessment3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="./css/home.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<section class="section1">
+  <nav>
+     <i id="icon1" class="fa fa-bars"></i>
+     <label class="label1"><b>Home</b></label>
+     <i id="icon2" class="fa fa-apple"></i>
+     <label class="label2"><b>qhub</b></label>
+     <i id="icon3" class="fa fa-bell-o"></i>
+     <a href="index.html">Logout</a>
+  </nav>
+</section> 
+<div class="row">
+            <div class="col-lg-3 col-xs-3 col-sm-3 col-md-3 label">
+            <label id="lblGreetings"></label>
+            </div>
+            <div class="col-lg-1 col-xs-1 col-sm-1 col-md-1">
+              <label id='time'></label>
+            </div>
+            <div class="col-lg-1 col-xs-1 col-sm-1 col-md-1 temp">
+            <label>Temperature</br><img class="pic" src="./images/Sun.png"><br>85F</label></div>
+            <div class="col-lg-1 col-xs-1 col-sm-1 col-md-1 sig">
+            <label>Signal<br><i class="fa fa-wifi" style="font-size:40px; color: green;"></i></label></div>
+            <div class="col-lg-3 col-xs-3 col-sm-3 col-md-3"></div>
+           
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-8 col-xs-8 col-sm-8 col-md-8 down">
+            <span><p class="correct">wed,</br> 14 mar</p><img class="i1" src="./images/image1.jpg"><p class="left"> Snow & Ice Festival — Harbin, China</p><p class="pleft">The Harbin festival is the largest snow and ice festival in the world, and it features carvings towering over 20 feet in height and full-size buildings made from gigantic blocks of ice.</p></span>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-8 col-xs-8 col-sm-8 col-md-8 down2">
+            <span><p class="correct">sat,</br> 25 Aug</p><img class="i1" src="./images/image2.jpg"><p class="left"> Carnevale — Venice, Italy
+            </p><p class="pleft">Carnevale, or "Carnival," has been a Venice tradition since the 13th century. People flock from all over the world to participate in the masked celebrations, arguably making it one of the best parties on Earth..</p></span>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-8 col-xs-8 col-sm-8 col-md-8 down3">
+            <span><p class="correct">sat,</br> 30 June</p><img class="i1" src="./images/image3.jpeg"><p class="left"> Oktoberfest — Munich, Germany
+            </p><p class="pleft">Though there are many smaller offshoots of Oktoberfest around the world, Munich's original fair is the biggest beer festival in the world. In 2013, more than $96,178,668 worth of beer was served every day during the festival.</p></span>
+           </div>
+           </div>
+           <div class="col-lg-3 col-xs-3 col-sm-3 col-md-3">
+           <div class="card">
+           <label ><b>Events calender</b></label>
+           <h3 class="card-header" id="monthAndYear"></h3>
+           <table class="table table-bordered table-responsive-sm" id="calendar">
+            <thead>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            </thead>
+          <tbody id="calendar-body">
+            
+          </tbody>
+        </table>
+        <br/>
+        <form class="form-inline">
+            <!-- <label class="lead mr-2 ml-2" for="month">Jump To: </label> -->
+            <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
+                <option value=0>Jan</option>
+                <option value=1>Feb</option>
+                <option value=2>Mar</option>
+                <option value=3>Apr</option>
+                <option value=4>May</option>
+                <option value=5>Jun</option>
+                <option value=6>Jul</option>
+                <option value=7>Aug</option>
+                <option value=8>Sep</option>
+                <option value=9>Oct</option>
+                <option value=10>Nov</option>
+                <option value=11>Dec</option>
+            </select>
+              <label for="year"></label><select class="form-control col-sm-4" name="year" id="year" onchange="jump()">
+            <option value=2011>2011</option>
+            <option value=2012>2012</option>
+            <option value=2013>2013</option>
+            <option value=2014>2014</option>
+            <option value=2015>2015</option>
+            <option value=2016>2016</option>
+            <option value=2017>2017</option>
+            <option value=2018>2018</option>
+            <option value=2019>2019</option>
+            <option value=2020>2020</option>
+            </select>
+        </form>
+    </div>
+</div>
+<script src="scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+      </div>
+      </div>
+</div>
+</div>
+
+<script type="text/javascript" src="./javascript/home.js"></script>
+</body>
+</html>
+

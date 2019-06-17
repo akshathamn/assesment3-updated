@@ -1,0 +1,151 @@
+body
+{
+	background-color:#DFE7E7;
+}
+.section1
+{
+	background-color:#D4D5D5;
+	margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 6px;
+}
+#icon1
+{
+	margin-left: 90px;
+	font-size:24px
+}
+#icon2
+{
+	font-size:32px;
+	color:red;
+	margin-left: 400px;
+}
+#icon3
+{
+	font-size:24px;
+	margin-left: 300px;
+}
+.label1
+{
+	margin-left: 11px;
+    font-size: 18px;
+}
+.label2
+{
+	margin-left: 7px;
+    font-size: 20px;
+}
+a
+{
+	margin-left: 130px;
+    font-size: 19px;
+    text-decoration: underline;
+    text-decoration-color:#D4D5D5;
+    color:#09ABAB;
+}
+a:hover
+{
+	color:#09ABAB;
+	text-decoration: underline;
+    text-decoration-color:#D4D5D5;
+}
+.i1
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 144px;
+
+}
+	    
+.left
+{
+	margin-left: 255px;   
+    margin-top: -18%;
+    font-weight: bold;
+}
+.pleft
+{
+	margin-left: 255px;
+}
+.correct
+{
+	margin-left: 53px;
+    margin-bottom: -16px;
+}
+.right
+{
+	margin-left: 100px;
+}
+.class
+{
+	margin-left: 100px;
+}
+.home
+{
+	position: relative;
+}
+.card
+{
+	position: absolute;
+	top: -414px;
+    left: 335%;
+}
+.row
+{
+	background-color:#c1c1c5;
+}
+#time
+{
+	background-color: gray;
+}
+.temp
+{
+	background-color: gray;
+}
+.sig
+{
+	background-color: gray;
+	margin-left: 15px;
+}
+.down
+{
+	top: 10px;
+	background-color: white;
+	height:  137px;
+	right: 15px;
+}
+.down2
+{
+	top: 30px;
+	right: 14px;
+	background-color: white;
+	height: 137px;
+}
+.down3
+{
+	top: 50px;
+	right: 14px;
+	background-color: white;
+	height:  137px;
+}
+.table td, .table th 
+{
+    padding: 2px !important;
+}
+.pic
+{
+    width: 40px;
+    height: 23px;
+}
+#lblGreetings
+{
+padding-right: 100px;
+}
+.label{
+	left: 179px;
+}
+.event
+{
+	left: 50%;
+}

@@ -1,0 +1,95 @@
+.top
+{
+	top: 130px;
+}
+.font
+{
+	font-size: 60px;
+	margin-left: 56px;
+}
+.size
+{
+	font-size:46px;
+	color: gray;
+	margin-left: 53px;
+}
+button
+{
+	border-radius: 11px 11px;
+	width:  133px;
+	height: 30px;
+	margin-left: 72px;
+	color: white;
+}
+/*.open-button
+{
+	background-color:#79c3f2;
+	 color: white; 
+}*/
+
+.b2
+{
+	background-color: #404344;
+}
+body
+{
+	background-color: lavender;
+}
+
+
+.modal-content
+{
+	background-color: lavender;
+}
+.modal-header, h4, .close {
+   
+    text-align: center;
+    font-size: 30px;
+  }
+  
+ .btn 
+{
+  background-color: #79c3f2;
+  color: white;
+  border: none;
+  border-radius: 26px 26px;
+  width: 165px;
+  height: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+a{
+	color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.question
+{
+	color: white;
+	margin-left: 139px;
+	font-weight: bold;
+}
+.signin
+{
+	background-color:black;
+	color:#79c3f2;
+	font-weight: bold;
+	width: 86px; 
+	margin-left: 11px;
+
+}
+.font1
+{
+	margin-left: 578px;
+	margin-top: 3px;
+}
+.left
+{
+	margin-right: 200px;
+	font-size: 30px;
+	color: #0587b1;
+	margin-left: 10px;
+}
+
